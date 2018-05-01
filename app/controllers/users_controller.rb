@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   def index
+<<<<<<< HEAD
     @user = User.find_by(name: params[:name])
   end
 
@@ -9,6 +10,11 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
+=======
+  end
+
+  def new
+>>>>>>> d6945b0e98c0287410d92ebe3a240da20777739f
   end
 
   def create
